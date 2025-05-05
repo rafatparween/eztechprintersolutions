@@ -139,16 +139,16 @@
 // export default PrivacyPolicy;
 
 
-import Head from "next/head";
-import Footer from "../Components/Footer";
+
+
 
 const PrivacyPolicy = () => {
   return (
     <>
-      <Head>
+ 
         <title>Privacy Policy | EzTech-Print</title>
         <meta name="description" content="Privacy policy page for EzTech-Print " />
-      </Head>
+    
 
       <div className="bg-gradient-to-r from-blue-500 via-teal-600 to-indigo-700 min-h-screen py-12 px-6 md:px-12 pt-16">
         <div className="max-w-7xl mx-auto bg-white p-8 rounded-lg shadow-md">
@@ -254,7 +254,7 @@ const PrivacyPolicy = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+   
     </>
   );
 };
